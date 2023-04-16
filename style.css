@@ -1,0 +1,23 @@
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header h1{
+            background: rgb(147 140 140 / 8%);
+            color: rgb(95, 241, 167);
+        }
+        #moviesSearchResultOl{
+         height: calc(100vh - 350px)!important;
+         overflow: scroll !important;
+         padding: 20px !important;
+        }
+        #moviesSearchResultOl li {
+         margin-bottom: 10px;
+         padding: 10px;
+         border-radius: 5px;
+         box-shadow: 0px 0px 20px #ccc !important;
+         cursor:pointer;
+      }
+
+    
